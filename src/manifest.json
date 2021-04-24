@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "KKTV Continued",
+  "description": "This extension allows you to automatically resume KKTV videos.",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "KKTV Continued",
+    "default_icon": "images/icon.png"
+  },
+  "content_scripts": [  
+    {
+	  "matches": [
+	    "https://www.kktv.me/play/*"
+	  ],
+	  "js": [
+	    "js/main.js"
+	  ]
+    }
+  ]
+}
