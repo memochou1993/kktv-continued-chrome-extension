@@ -9,12 +9,12 @@
   },
   "content_scripts": [  
     {
-	  "matches": [
-	    "https://www.kktv.me/play/*"
-	  ],
-	  "js": [
-	    "js/main.js"
-	  ]
+      "matches": [
+        "https://www.kktv.me/play/*"
+      ],
+      "js": [
+        "js/main.js"
+      ]
     }
   ]
 }
